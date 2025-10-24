@@ -133,9 +133,6 @@ markBtn.onclick = async () => {
     alert("✅ Checked In Successfully!");
     updateButtonState();
     loader.style.display = "none";
-    markBtn.style.display = "none";
-    checkoutBtn.style.display = "flex";
-    brkoutBtn.style.display = "flex";
   });
 };
 
@@ -208,11 +205,9 @@ brkoutBtn.onclick = async () => {
 
       breakOutTimeEl.textContent = formatDateTime(attData.breakOutTime);
       breakPurposeEl.textContent = purpose;
-      alert("Break Out Recorded!");
+      alert("☕ Break Out Recorded!");
       updateButtonState();
       loader.style.display = "none";
-      brkoutBtn.style.display = "none";
-      brkinBtn.style.display = "flex";
     });
   };
 };
@@ -229,6 +224,5 @@ brkinBtn.onclick = async () => {
 
   alert("✅ Break In Done!");
   updateButtonState();
-  brkinBtn.style.display = "none";
 };
 

@@ -39,18 +39,15 @@ main.content {
   height: 50px;
   width: 100px;
   cursor: pointer;
-  align-items: center;
 }
 
 .checkin,
 .brkin {
   background: #2e2eff;
-  display: none;
 }
 .checkout,
 .brkout {
   background: #b40000;
-  display: none;
 }
 .card-body p  {
   margin: 5px 0;
@@ -275,5 +272,4 @@ main.content {
   }
   .leavcancel {
     background: #8b0000;
-
   }
