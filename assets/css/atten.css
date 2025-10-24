@@ -39,6 +39,7 @@ main.content {
   height: 50px;
   width: 100px;
   cursor: pointer;
+  align-items: center;
 }
 
 .checkin,
@@ -274,4 +275,5 @@ main.content {
   }
   .leavcancel {
     background: #8b0000;
+
   }
